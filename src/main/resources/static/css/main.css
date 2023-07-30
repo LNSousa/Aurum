@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+/* General */
+
+body {
+    background-color: rgb(230, 233, 238);
+}
+
+/* Nav */
+
+.nav-item a {
+    color: white;
+}
+
+.nav-item a:hover {
+	color: #FFC009;
+}
+
+/* Dashboard */
+
+.checking-card, .savings-card {
+	margin-bottom: 2vh;
+}
+
+.action-btn {
+	height: fit-content;
+}
+
+.transactions-link {
+	margin: 10% 0;
+	text-decoration: none;
+}
+
+.action-list:first-of-type {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+	list-style: none;
+}
+
+.savings-card .action-list {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 5vh;
+}
+
+.transactions-list {
+	width: 80%;
+}
+
+@media (max-width: 958px) {
+	.transactions-list {
+		width: 100%;
+	}
+}
+
+/* Deposit/Withdraw Page */
+
+.withdraw-form {
+    width: 50%;
+}
+
+.withdraw-form label {
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* Message Page */
+
+.message-container {
+    height: 100vh;
+}
+
+.message-card {
+    height: fit-content;
+    padding: 4%;
+    font-size: large;
+    margin: 0 30%;
+}
+
+.message-card a{
+    margin-top: 40px;
+    width: 150px;
+}
+
+/* Goal Page */
+
+.goal-col button {
+    width: 100%;
+}
+
+/* Currency Tracker */
+
+.currency-item h5{
+    margin: .5rem 0;
+}
+
+/* Transactions Page */
+
+.transactions-page .transaction-list {
+    list-style: none;
+    padding: 5%;
+    margin: 0;
+    border-top: 1px solid darkgray;
+}
+
+.transactions-page .transaction-list li {
+    padding: 0;
+    text-align: center;
+}
+
+/* .transactions-page .transaction-list li .trans-date {
+	width: 19%;
+	margin: 0;
+	display: inline-block;
+}
+
+.transactions-page .transaction-list li .trans-desc {
+	width: 49%;
+	margin: 0;
+	display: inline-block;
+}
+
+.transactions-page .transaction-list li .amount {
+	width: 29%;
+	margin: 0;
+	display: inline-block;
+} */
