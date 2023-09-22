@@ -17,6 +17,7 @@ Aurum is implemented in Java using Spring Boot and uses database encryption to p
 ### Login & registration pages
 Users must create an account or login to access the application.
 <img width="600px" alt="Screenshot 2023-09-14 at 9 50 31 PM" src="https://github.com/LNSousa/Aurum/assets/29151826/6853e3fa-cff3-474f-873a-5f990675879c">
+
 <img width="400" alt="Screenshot 2023-09-19 at 4 14 33 PM" src="https://github.com/LNSousa/Aurum/assets/29151826/258a2e4d-6874-499a-9f2e-732e2370d2c5">
 <img width="331" alt="Screenshot 2023-09-19 at 4 14 35 PM" src="https://github.com/LNSousa/Aurum/assets/29151826/bf0978db-61d6-4f67-937d-8cf27806f070">
 
